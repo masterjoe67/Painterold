@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{593f2bf6-f139-47d0-a5c7-f0ae253f029e}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{445c669b-94bc-45ec-91cf-bb8dd113d426}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{5f27f752-5ae9-4f31-be79-df90a6f6644d}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{0d95aef1-d81e-4553-b6a4-2b4498217b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Startup">
+      <UniqueIdentifier>{c2805604-7980-4ea2-aeed-8fa729edbbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL">
+      <UniqueIdentifier>{c9005661-9ece-4c03-b31e-bdf1dd392460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\COMMON">
+      <UniqueIdentifier>{361dbc42-8368-4d0a-8917-a88dae350691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\RCC">
+      <UniqueIdentifier>{d5d86f26-21ac-48ea-abea-3d76871f9e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\CORTEX">
+      <UniqueIdentifier>{421b484b-ee3f-41d7-a7f4-0580e098912a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\TIM">
+      <UniqueIdentifier>{07690d60-001e-4523-962f-5d9c07b4d974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\UART">
+      <UniqueIdentifier>{fc245b53-dc9e-4ec4-bee8-df25fe297c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\DMA">
+      <UniqueIdentifier>{8845dc5b-39e3-45b3-9ab5-5cd4572a945e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\PWR">
+      <UniqueIdentifier>{7e802bf4-724f-4a66-9de6-cd92e58eba28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\I2C">
+      <UniqueIdentifier>{0e85af17-0991-45ff-8e85-ef4dd5a39579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\SPI">
+      <UniqueIdentifier>{6344244d-18db-439f-9c11-b8cf122cb1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\FLASH">
+      <UniqueIdentifier>{c69acf30-707f-4bdc-af76-72b749bc6055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\GPIO">
+      <UniqueIdentifier>{73fccf42-b045-4bb6-8697-bb4b4efbd857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{7281e048-3322-4b09-bfc9-3af470d03324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{aca70bdf-e7b6-4f7a-bd45-a7dc4bb01b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Startup">
+      <UniqueIdentifier>{f805c279-4e1a-43e3-abdb-3c247830bbbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL">
+      <UniqueIdentifier>{ba6d0de7-50be-4cec-9dd0-4562285bba4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\COMMON">
+      <UniqueIdentifier>{7966726b-cfdf-48e4-aade-1c16e9175571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\RCC">
+      <UniqueIdentifier>{b29bc6f6-221f-453b-8eb6-449cbf81a9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\CORTEX">
+      <UniqueIdentifier>{d6e9f9b0-c0b7-4d52-8332-8ef98d769b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\TIM">
+      <UniqueIdentifier>{1cb6154a-dfaf-4ebf-ad77-9b2bfdf93094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\UART">
+      <UniqueIdentifier>{6c7508ff-9a20-4ca6-849d-b3ff25f80876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\DMA">
+      <UniqueIdentifier>{2e9af40e-0228-4a78-a555-6c48bbfc3ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\PWR">
+      <UniqueIdentifier>{f7029173-adac-4d6f-bd18-a7b7f30af87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\I2C">
+      <UniqueIdentifier>{0a5a8314-a097-46a1-a65c-77ef6a1d894b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\SPI">
+      <UniqueIdentifier>{cc0d5c07-db41-4446-8a8b-325bce21c14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\FLASH">
+      <UniqueIdentifier>{81e77cd4-6249-408f-9cb5-089fbf9c4533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\GPIO">
+      <UniqueIdentifier>{e4b88aa4-0118-4a48-ab5f-d7430670be8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{60811933-a87b-431a-802c-b37e2cf70ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{a33b8d34-828e-4c6f-a31d-3d28a37c7b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library">
+      <UniqueIdentifier>{81816034-6c7d-4a2e-9114-4b8525fe1e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library\SD">
+      <UniqueIdentifier>{f96173ae-95ea-409a-a613-8c35385327ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library\SD\utility">
+      <UniqueIdentifier>{6beb4b87-da4e-42fc-8cab-224cd7205935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library">
+      <UniqueIdentifier>{549f6a6c-cdfd-49b9-aed6-90b235e6e482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library\SD">
+      <UniqueIdentifier>{148d8be6-552d-4ee0-8128-cf88e8410139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library\SD\utility">
+      <UniqueIdentifier>{a7ecdac4-05a9-4101-89f2-2357ab896415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library\Print">
+      <UniqueIdentifier>{b0e55b53-e2f8-420d-bd6a-575f3d2145cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library\Print">
+      <UniqueIdentifier>{73d3ceb7-3df9-404c-8626-b30ba0584291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library\JPEGDecoder">
+      <UniqueIdentifier>{af00565e-0b87-42f3-b108-c292e1c38222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library\JPEGDecoder">
+      <UniqueIdentifier>{d3e733a1-8549-498f-86cd-40a52bb1f587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library\Adafruit_ILI9341">
+      <UniqueIdentifier>{e77362f1-b822-441b-b157-94b0bdc9be69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library\Adafruit_ILI9341">
+      <UniqueIdentifier>{a4f36b59-45ae-46f8-92f1-d881db3e06b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library\Adafruit-GFX">
+      <UniqueIdentifier>{79c97aaa-a060-4c23-a201-b80d33120d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library\Adafruit-GFX">
+      <UniqueIdentifier>{e03f46f4-e904-4392-830d-b5c8cea15c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library\XPT2046">
+      <UniqueIdentifier>{1a10364d-b860-4f37-a589-6f4947a54fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library\XPT2046">
+      <UniqueIdentifier>{857191f0-03a9-4aec-a123-e37f1918e46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Library\Adafruit_ImageReader">
+      <UniqueIdentifier>{7d92df2e-0a21-4e4b-830b-bcf2deaab452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Library\Adafruit_ImageReader">
+      <UniqueIdentifier>{01c9f640-c064-46f2-b2ce-4e46e9101327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ICON">
+      <UniqueIdentifier>{845f43b9-b521-4174-b3ef-dd4b391cdd3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\Src\stm32f3xx_it.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\stm32f3xx_hal_msp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\stm32f3xx_hal_timebase_tim.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\CMSIS\Device\ST\STM32F3xx\Source\Templates\system_stm32f3xx.c">
+      <Filter>Source files\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c">
+      <Filter>Source files\STM32Cube HAL\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc.c">
+      <Filter>Source files\STM32Cube HAL\RCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_rcc_ex.c">
+      <Filter>Source files\STM32Cube HAL\RCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_cortex.c">
+      <Filter>Source files\STM32Cube HAL\CORTEX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim.c">
+      <Filter>Source files\STM32Cube HAL\TIM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tim_ex.c">
+      <Filter>Source files\STM32Cube HAL\TIM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart.c">
+      <Filter>Source files\STM32Cube HAL\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_uart_ex.c">
+      <Filter>Source files\STM32Cube HAL\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_dma.c">
+      <Filter>Source files\STM32Cube HAL\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr.c">
+      <Filter>Source files\STM32Cube HAL\PWR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_pwr_ex.c">
+      <Filter>Source files\STM32Cube HAL\PWR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c.c">
+      <Filter>Source files\STM32Cube HAL\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_i2c_ex.c">
+      <Filter>Source files\STM32Cube HAL\I2C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi.c">
+      <Filter>Source files\STM32Cube HAL\SPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_spi_ex.c">
+      <Filter>Source files\STM32Cube HAL\SPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_flash_ex.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Drivers\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_gpio.c">
+      <Filter>Source files\STM32Cube HAL\GPIO</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32F3xxxx\StartupFiles\startup_stm32f303xc.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Core\Inc\stm32f3xx_it.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Inc\stm32f3xx_hal_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Inc\main.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Include\core_cm4.h">
+      <Filter>Header files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h">
+      <Filter>Header files\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h">
+      <Filter>Header files\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_def.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_rcc.h">
+      <Filter>Header files\STM32Cube HAL\RCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_rcc_ex.h">
+      <Filter>Header files\STM32Cube HAL\RCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_cortex.h">
+      <Filter>Header files\STM32Cube HAL\CORTEX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_tim.h">
+      <Filter>Header files\STM32Cube HAL\TIM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_tim_ex.h">
+      <Filter>Header files\STM32Cube HAL\TIM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_uart.h">
+      <Filter>Header files\STM32Cube HAL\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_uart_ex.h">
+      <Filter>Header files\STM32Cube HAL\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_dma_ex.h">
+      <Filter>Header files\STM32Cube HAL\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_dma.h">
+      <Filter>Header files\STM32Cube HAL\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_pwr.h">
+      <Filter>Header files\STM32Cube HAL\PWR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_pwr_ex.h">
+      <Filter>Header files\STM32Cube HAL\PWR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_i2c.h">
+      <Filter>Header files\STM32Cube HAL\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_i2c_ex.h">
+      <Filter>Header files\STM32Cube HAL\I2C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_spi.h">
+      <Filter>Header files\STM32Cube HAL\SPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_spi_ex.h">
+      <Filter>Header files\STM32Cube HAL\SPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_flash.h">
+      <Filter>Header files\STM32Cube HAL\FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_flash_ex.h">
+      <Filter>Header files\STM32Cube HAL\FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_gpio.h">
+      <Filter>Header files\STM32Cube HAL\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Drivers\STM32F3xx_HAL_Driver\Inc\stm32f3xx_hal_gpio_ex.h">
+      <Filter>Header files\STM32Cube HAL\GPIO</Filter>
+    </ClInclude>
+    <None Include="Painter-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Painter-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <ClCompile Include="..\Core\Src\main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\SD\src\File.cpp">
+      <Filter>Source files\Library\SD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\SD\src\SD.cpp">
+      <Filter>Source files\Library\SD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\SD\src\utility\Sd2Card.cpp">
+      <Filter>Source files\Library\SD\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\SD\src\utility\SdFile.cpp">
+      <Filter>Source files\Library\SD\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\SD\src\utility\SdVolume.cpp">
+      <Filter>Source files\Library\SD\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Print\dtostrf.c">
+      <Filter>Source files\Library\Print</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Print\itoa.c">
+      <Filter>Source files\Library\Print</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Print\Print.cpp">
+      <Filter>Source files\Library\Print</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Print\Stream.cpp">
+      <Filter>Source files\Library\Print</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Print\WString.cpp">
+      <Filter>Source files\Library\Print</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\JPEGDecoder\src\JPEGDecoder.cpp">
+      <Filter>Source files\Library\JPEGDecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\JPEGDecoder\src\picojpeg.c">
+      <Filter>Source files\Library\JPEGDecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Adafruit_ILI9341\Adafruit_ILI9341.cpp">
+      <Filter>Source files\Library\Adafruit_ILI9341</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Adafruit-GFX\Adafruit_GFX.cpp">
+      <Filter>Source files\Library\Adafruit-GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Adafruit-GFX\Adafruit_SPITFT.cpp">
+      <Filter>Source files\Library\Adafruit-GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Adafruit-GFX\glcdfont.c">
+      <Filter>Source files\Library\Adafruit-GFX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Src\ImageUtility.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\XPT2046\XPT2046.cpp">
+      <Filter>Source files\Library\XPT2046</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Adafruit_ImageReader\Adafruit_ImageReader.cpp">
+      <Filter>Source files\Library\Adafruit_ImageReader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Library\SD\src\SD.h">
+      <Filter>Header files\Library\SD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\SD\src\utility\FatStructs.h">
+      <Filter>Header files\Library\SD\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\SD\src\utility\Sd2Card.h">
+      <Filter>Header files\Library\SD\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\SD\src\utility\Sd2PinMap.h">
+      <Filter>Header files\Library\SD\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\SD\src\utility\SdFat.h">
+      <Filter>Header files\Library\SD\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\SD\src\utility\SdFatmainpage.h">
+      <Filter>Header files\Library\SD\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\SD\src\utility\SdFatUtil.h">
+      <Filter>Header files\Library\SD\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\SD\src\utility\SdInfo.h">
+      <Filter>Header files\Library\SD\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Print\dtostrf.h">
+      <Filter>Header files\Library\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Print\itoa.h">
+      <Filter>Header files\Library\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Print\Print.h">
+      <Filter>Header files\Library\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Print\Printable.h">
+      <Filter>Header files\Library\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Print\Stream.h">
+      <Filter>Header files\Library\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Print\WString.h">
+      <Filter>Header files\Library\Print</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\JPEGDecoder\src\JPEGDecoder.h">
+      <Filter>Header files\Library\JPEGDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\JPEGDecoder\src\picojpeg.h">
+      <Filter>Header files\Library\JPEGDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\JPEGDecoder\src\User_Config.h">
+      <Filter>Header files\Library\JPEGDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Adafruit_ILI9341\Adafruit_ILI9341.h">
+      <Filter>Header files\Library\Adafruit_ILI9341</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Adafruit-GFX\Adafruit_GFX.h">
+      <Filter>Header files\Library\Adafruit-GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Adafruit-GFX\Adafruit_SPITFT.h">
+      <Filter>Header files\Library\Adafruit-GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Adafruit-GFX\Adafruit_SPITFT_Macros.h">
+      <Filter>Header files\Library\Adafruit-GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Adafruit-GFX\gfxfont.h">
+      <Filter>Header files\Library\Adafruit-GFX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Inc\ImageUtility.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\XPT2046\XPT2046.h">
+      <Filter>Header files\Library\XPT2046</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Adafruit_ImageReader\Adafruit_ImageReader.h">
+      <Filter>Header files\Library\Adafruit_ImageReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Icons\icon.h">
+      <Filter>Header files\ICON</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
